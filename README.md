@@ -2,9 +2,7 @@
 
 ![Ícone do Java](assets/java.svg)
 
-![Guaxinim de braços abertos](assets/oxe.jpg)
-
-**Desenvolvido por Ninjaagoo**
+**Desenvolvido por Ninjaagoo** <img src="assets/oxe.jpg" alt="Guaxinim de braços abertos" width="40" height="40">
 
 CatFilmes é um programa de console feito em **Java** para organizar um pequeno catálogo de filmes. Ele permite cadastrar filmes, consultar a lista e pesquisar os registros salvos. O projeto usa um arquivo de texto para guardar os dados, sem precisar de banco de dados.
 
