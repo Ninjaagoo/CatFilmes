@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-labelledby="title">
+  <title id="title">Java</title>
+  <rect width="160" height="160" rx="24" fill="#f6f8fa"/>
+  <path d="M82 22c-14 14 15 18 0 32M98 30c-10 10 8 13-1 23" fill="none" stroke="#e76f30" stroke-width="5" stroke-linecap="round"/>
+  <path d="M40 66h72v24c0 20-15 34-36 34S40 110 40 90V66Z" fill="#fff" stroke="#457fbc" stroke-width="6"/>
+  <path d="M112 73h8c20 0 16 27-8 27" fill="none" stroke="#457fbc" stroke-width="6" stroke-linecap="round"/>
+  <path d="M31 132c28 13 65 13 93 0" fill="none" stroke="#457fbc" stroke-width="5" stroke-linecap="round"/>
+  <text x="80" y="94" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#e76f30">Java</text>
+</svg>
