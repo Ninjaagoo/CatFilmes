@@ -18,7 +18,7 @@ Os filmes ficam em `filmes.txt`, na pasta de onde o programa é executado. O arq
 Instale um **JDK** e confirme que os comandos `javac` e `java` funcionam no terminal. Abra o terminal na pasta do projeto e execute:
 
 ```powershell
-javac -encoding UTF-8 CatFilmes.java Menu.java FuncoesFilmes.java BuscaFilmes.java LimparConsole.java
+javac -encoding UTF-8 CatFilmes.java Menu.java FuncoesFilmes.java BuscaFilmes.java LimparConsole.java Entrada.java
 java CatFilmes
 ```
 
@@ -35,4 +35,5 @@ No menu, digite o número da opção desejada. Use **0** para sair.
 | `FuncoesFilmes.java` | Cadastra e lista os filmes; também mostra a ajuda. |
 | `BuscaFilmes.java` | Pesquisa os filmes salvos. |
 | `LimparConsole.java` | Limpa a tela do console. |
+| `Entrada.java` | Valida as entradas numéricas do usuário. |
 | `filmes.txt` | Guarda os registros dos filmes depois do primeiro cadastro. |

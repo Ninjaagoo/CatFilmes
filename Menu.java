@@ -20,9 +20,7 @@ public class Menu {
             System.out.println("3 - Pesquisar Filmes");
             System.out.println("4 - Ajuda");
             System.out.println("0 - Sair");
-            System.out.print("Digite sua opcao: ");
-            opcoes = imput.nextInt();
-            imput.nextLine();
+            opcoes = Entrada.lerInteiro(imput, "Digite sua opcao: ");
 
             switch (opcoes) {
                 case 0:

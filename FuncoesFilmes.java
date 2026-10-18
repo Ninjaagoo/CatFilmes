@@ -51,9 +51,7 @@ public class FuncoesFilmes {
         LimparConsole.LimparCmd();
 
         System.out.println("Fase 4");
-        System.out.print("Ano de lancamento: ");
-        ano_filmes = imput.nextInt();
-        imput.nextLine();
+        ano_filmes = Entrada.lerInteiro(imput, "Ano de lancamento: ");
 
         if (ano_filmes > 2000) {
             ano_maior_filme = "Filme atual";
@@ -71,9 +69,7 @@ public class FuncoesFilmes {
         LimparConsole.LimparCmd();
 
         System.out.println("Fase 6");
-        System.out.print("Classificacao: ");
-        classificacao_Filmes = imput.nextInt();
-        imput.nextLine();
+        classificacao_Filmes = Entrada.lerInteiro(imput, "Classificacao: ");
 
         LimparConsole.LimparCmd();
 
@@ -82,9 +78,7 @@ public class FuncoesFilmes {
             System.out.print("Filme Alugado Sim ou Nao: ");
             aluguelInput = imput.nextLine();
             if (aluguelInput.equalsIgnoreCase("Sim")) {
-                System.out.print("Digite o valor do aluguel: ");
-                aluguel_valor_filme = imput.nextDouble();
-                imput.nextLine();
+                aluguel_valor_filme = Entrada.lerDecimal(imput, "Digite o valor do aluguel: ");
 
                 break;
             } else if (aluguelInput.equalsIgnoreCase("Nao")) {

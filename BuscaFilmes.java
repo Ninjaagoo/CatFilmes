@@ -57,9 +57,15 @@ public class BuscaFilmes {
                 System.out.println("O arquivo filmes.txt ainda não existe.");
             }
 
-            System.out.print("Deseja fazer outra busca ? Digite 1 para sim e 0 para não: ");
-            repeticao_pesquisa = imput.nextInt();
-            imput.nextLine();
+            do {
+                repeticao_pesquisa = Entrada.lerInteiro(
+                    imput,
+                    "Deseja fazer outra busca? Digite 1 para sim e 0 para não: "
+                );
+                if (repeticao_pesquisa != 0 && repeticao_pesquisa != 1) {
+                    System.out.println("Digite 1 ou 0.");
+                }
+            } while (repeticao_pesquisa != 0 && repeticao_pesquisa != 1);
         } while (repeticao_pesquisa != 0);
     }
 }
