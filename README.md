@@ -15,7 +15,7 @@ CatFilmes é um programa de console feito em **Java** para organizar um pequeno 
 - **Pesquisar filmes:** procura um texto nos registros salvos. Você pode buscar, por exemplo, pelo nome ou pela categoria.
 - **Ajuda:** explica as opções do menu.
 
-Os filmes ficam em `filmes.txt`, na pasta de onde o programa é executado. O arquivo já contém alguns exemplos e novos cadastros são adicionados ao final dele.
+Os filmes ficam em `filmes.txt`, na pasta de onde o programa é executado. O arquivo é criado automaticamente no primeiro cadastro; os próximos filmes são adicionados ao final dele. Até lá, a listagem estará vazia.
 
 ## Como executar
 
@@ -39,4 +39,4 @@ No menu, digite o número da opção desejada. Use **0** para sair.
 | `FuncoesFilmes.java` | Cadastra e lista os filmes; também mostra a ajuda. |
 | `BuscaFilmes.java` | Pesquisa os filmes salvos. |
 | `LimparConsole.java` | Limpa a tela do console. |
-| `filmes.txt` | Guarda os registros dos filmes. |
+| `filmes.txt` | Guarda os registros dos filmes depois do primeiro cadastro. |
